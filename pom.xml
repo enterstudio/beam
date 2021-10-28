@@ -92,18 +92,18 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <beam.javadoc_opts />
+    <beam.javadoc_opts/>
 
     <!-- Disable integration tests by default -->
     <skipITs>true</skipITs>
 
     <!-- Do not add additional surefire arguments by default -->
-    <beamSurefireArgline />
+    <beamSurefireArgline/>
 
     <!-- If updating dependencies, please update any relevant javadoc offlineLinks -->
     <apache.commons.lang.version>3.5</apache.commons.lang.version>
     <apex.kryo.version>2.24.0</apex.kryo.version>
-    <avro.version>1.8.1</avro.version>
+    <avro.version>1.11.0</avro.version>
     <bigquery.version>v2-rev295-1.22.0</bigquery.version>
     <cloudresourcemanager.version>v1-rev6-1.22.0</cloudresourcemanager.version>
     <pubsubgrpc.version>0.1.0</pubsubgrpc.version>
@@ -1299,7 +1299,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1313,7 +1313,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
